@@ -14,7 +14,7 @@ public class App {
 
 
         output("-------------------------");
-
+        
         Cat cat2 = new Cat("Alonzo", "grey", 35);
 
         output(cat2.getStringAttributes("#name"));
@@ -27,6 +27,7 @@ public class App {
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
+
 
 }
 
